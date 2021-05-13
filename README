@@ -1,0 +1,3 @@
+Lexing is a library for the generation of tokenizers.
+It contains an implementation of regular automata (called acceptors)
+and one can build tokenizers with them (called classifiers).
