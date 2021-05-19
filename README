@@ -1,3 +1,13 @@
-Lexing is a library for the generation of tokenizers.
-It contains an implementation of regular automata (called acceptors)
-and one can build tokenizers with them (called classifiers).
+Maphoon is a collection of tools for the construction of compilers that uses C++-17. 
+MaphTT (Maphoon Tokenizer Tools) is a library of C++ functions for the creation
+of tokenizers in C++. It is intended to be used in combination with the parser generator, but the parser generator is not finished yet.
+
+MaphTT contains two types of automata, called acceptors and classifiers. An acceptor can only accept or reject a word. A classifier 
+classifies input by type. A classifier is obtained by pairing acceptors to token types.
+
+MaphTT contains functions that run and use a nondeterministic classifier at once. 
+It MaphTT contains functions for the determinization and minimization of classifiers.
+It contains functions for generation of efficient, table-based tokenizers, and for the translation of classifiers into C++ code. 
+All intermediate steps are transparant, which means that it is easy to see the automata.
+
+If you plan to use it, please download the sources and instructions.pdf.
