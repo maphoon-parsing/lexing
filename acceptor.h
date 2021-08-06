@@ -2,8 +2,8 @@
 // Written by Dina Muktubayeva and
 // Hans de Nivelle, March/April 2021.
 
-#ifndef MAPH_LEXING_ACCEPTOR
-#define MAPH_LEXING_ACCEPTOR  1
+#ifndef MAPH_LEXING_ACCEPTOR_
+#define MAPH_LEXING_ACCEPTOR_  1
 
 #include <climits>
 #include <iostream>
